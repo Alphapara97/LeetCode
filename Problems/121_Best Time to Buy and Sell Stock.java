@@ -5,7 +5,6 @@ class Solution {
                 for(int i = 0 ; i<prices.length;i++){
                         if(prices[i]>min){
                                 max = Math.max(max,prices[i]-min);
-                                System.out.println(max);
                         }else{
                                 min = prices[i];
                         }
