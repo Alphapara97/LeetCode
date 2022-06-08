@@ -8,7 +8,6 @@ class Solution {
         for(int k = 0;k<i;k++){
             for(int l = 0;l<j;l++){
                 A[l][k] = matrix[k][l];
-
             }
 
         }
